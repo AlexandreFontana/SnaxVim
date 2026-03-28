@@ -9,14 +9,14 @@ return {
     opts = require("configs.dashboard-nvim"),
   },
 
-  -- { -- Colorscheme
-  --   "catppuccin/nvim",
-  --   lazy = false,
-  --   config = function()
-  --     require("catppuccin").setup({ no_italic = true })
-  --     vim.cmd.colorscheme("catppuccin-latte")
-  --   end,
-  -- },
+  { -- Colorscheme
+     "catppuccin/nvim",
+     lazy = false,
+     config = function()
+       require("catppuccin").setup({ no_italic = true })
+       vim.cmd.colorscheme("catppuccin-mocha")
+     end,
+   },
 
   -- { -- Fuzzy finder
   --   "nvim-telescope/telescope.nvim",
