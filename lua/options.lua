@@ -10,7 +10,7 @@ o.shiftwidth = 0
 o.tabstop = 2
 o.ignorecase = true
 o.smartcase = true
-opt.listchars = { tab = " ‥", trail = "-", nbsp = "␣", eol = "↲", space = "·", extends = "»", precedes = "«" }
+opt.list = false
 o.mouse = "a"
 o.scrolloff = 5
 o.smartindent = true
